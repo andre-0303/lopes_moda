@@ -1,0 +1,89 @@
+.banner {
+    position: relative;
+    background-image: url('../../assets/d967898f-3c70-46eb-b823-88ed63a37ba0-removebg-preview.png'); 
+    background-size: contain; 
+    background-position:left; 
+    background-attachment: local; 
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    box-sizing: border-box;
+    padding: 20px;
+    overflow: hidden;
+    color: white;
+    background-color: var(--pink2);
+}
+
+.banner h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+    font-family: sans-serif;
+}
+
+.banner > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 3px;
+}
+
+#botWhat {
+    background-color: green;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+}
+
+#botWhat:hover {
+    transform: translateY(-5px);
+    background-color: darkgreen;
+}
+
+#botWhat > a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+@media (max-width: 768px) {
+    .banner {
+        padding: 10px;
+        height: 300px;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .banner h1 {
+        font-size: 40px; 
+    }
+
+    .banner > p {
+        font-size: 20px; 
+    }
+
+    #botWhat {
+        font-size: 17px;    
+        padding: 16px;
+    }
+}
