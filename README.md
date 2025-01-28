@@ -1,8 +1,9 @@
-# React + Vite
+# Lopes Moda 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um site de uma loja de roupas femininas que fui contatado para fazer. Primeiro frellancer que tive, e espero mais oportunidades. 
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#
+| Detalhes do Projeto |     |
+| -------------  | --- |
+| :sparkles: Nome        | **Lopes Moda**
+| :label: Tecnologias | React, Vite
